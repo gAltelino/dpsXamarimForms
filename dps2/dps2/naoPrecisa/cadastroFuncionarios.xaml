@@ -4,7 +4,10 @@
              x:Class="dps2.cadastroFuncionarios">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+
+            <Label Text="CPF"></Label>
+            <Entry x:Name="dataNascimentoCliente"></Entry>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

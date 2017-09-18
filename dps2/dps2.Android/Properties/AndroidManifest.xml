@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="dps2.Android"></application>
-  <meta-data android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyBJo23qCLmNHNal4oCzQx8rACaNDOCMXrI" />
+  <uses-permission android:name="android.permission.ACCESS_GPS" />
+  <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+  <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="dps2.Android">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBJo23qCLmNHNal4oCzQx8rACaNDOCMXrI" />
+  </application>
+  
+
 </manifest>

@@ -10,32 +10,22 @@
         <StackLayout VerticalOptions="StartAndExpand">
 
             <!--Abaixo disponível apenas aos clientes-->
-            <Button Text="EMERGÊNCIA" BackgroundColor="Red" TextColor="Black" ClassId="clientes"></Button>
+                <Button Text="EMERGÊNCIA" BackgroundColor="Red" TextColor="Black" ClassId="clientes"></Button>
 
                 <Button Text="Mapa" TextColor="Blue" ClassId="clientes"></Button>
 
                 <Button Text="Registrar Ocorrência" TextColor="Blue" ClassId="clientes"></Button>
-            
-            <!--Abaixo disponível apenas aos funcionários-->
+
+                <Button Text="Atualizar Dados" TextColor="Blue" ClassId="clientes"></Button>
+
+                <!--Abaixo disponível apenas aos funcionários-->
             <Button Text="Iniciar Ronda" BackgroundColor="Blue" TextColor="Black" ClassId="funcionarios"></Button>
 
                 <Button Text="Visualizar Emergências" TextColor="Black" ClassId="funcionarios"></Button>
 
                 <Button Text="Visualizar Ocorrência" TextColor="Blue" ClassId="funcionarios"></Button>
-                        
-            <!--Abaixo só estará disponível aos administradores-->
-            <Button Text="Cadastro de Clientes" TextColor="Blue" ClassId="adm"></Button>
-
-                <Button Text="Cadastro de Funcionários" TextColor="Blue" ClassId="adm"></Button>
-
-                <Button Text="Relatório de Clientes" TextColor="Blue" ClassId="adm"></Button>
-
-                <Button Text="Relatório de Funcionários" TextColor="Blue" ClassId="adm"></Button>
-
-                <Button Text="Relatório de Percurso" TextColor="Blue" ClassId="adm"></Button>
-
-                <Button Text="Cadastro de Rondas" TextColor="Blue" ClassId="adm"></Button>
-                                    
+                       
+                                               
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>

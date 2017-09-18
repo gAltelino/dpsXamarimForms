@@ -9,6 +9,7 @@
             <Label Text="Senha" />
             <Entry x:Name="senhaUsuario" IsPassword="true" />
             <Button Text="Login"/>
+            <Button Text="Esqueceu sua senha?"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

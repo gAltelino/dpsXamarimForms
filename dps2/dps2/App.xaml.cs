@@ -17,7 +17,7 @@ namespace dps2
         {
             InitializeComponent();
 
-            MainPage = new dps2.mapa();
+            MainPage = new dps2.mapeamentoRotas();
         }
 
         protected override void OnStart()

@@ -3,8 +3,66 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="dps2.cadastroClientes">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
-        </StackLayout>
+
+                <Label Text="Nome"></Label>
+                <Entry x:Name="nomeCliente"></Entry>
+            
+                <Label Text="Data de Nascimento"></Label>
+                <Entry x:Name="dataNascimentoCliente"></Entry>
+            
+                <Label Text="Estado Civil"></Label>
+                <ListView x:Name="estadoCivil"></ListView>
+            
+                <Label Text="CEP"></Label>
+                <Entry x:Name="cepCliente"></Entry>
+            
+                <Label Text="Endereço"></Label>
+                <Entry x:Name="enderecoCliente"></Entry>
+            
+                <Label Text="Bairro"></Label>
+                <Entry x:Name="bairroCliente"></Entry>
+            
+                <Label Text="Cidade"></Label>
+                <Entry x:Name="cidadeCliente"></Entry>
+            
+                <Label Text="Estado"></Label>
+                <Entry x:Name="estadoCliente"></Entry>
+            
+                <Label Text="Telefone Residencial"></Label>
+                <Entry x:Name="telefoneResidencial"></Entry>
+            
+                <Label Text="Telefone Comercial"></Label>
+                <Entry x:Name="telefoneComercial"></Entry>
+            
+                <Label Text="Celular"></Label>
+                <Entry x:Name="telefoneCelular"></Entry>
+
+                <Label Text="E-Mail"></Label>
+                <Entry x:Name="email"></Entry>
+
+                <Label Text="Senha"></Label>
+                <Entry x:Name="senha" IsPassword="False"></Entry>
+
+                <Label Text="Confirmar Senha"></Label>
+                <Entry x:Name="confirmarSenha" IsPassword="True"></Entry>
+
+                <Label Text="Senha de Liberação"></Label>
+                <Entry x:Name="senhaLiberacao" IsPassword="True"></Entry>
+
+                <Label Text="Confirmar Senha de Liberação"></Label>
+                <Entry x:Name="confirmarSenhaLiberacao" IsPassword="True"></Entry>
+
+                <Label Text="Senha de Pânico"></Label>
+                <Entry x:Name="senhaPanico" IsPassword="True"></Entry>
+
+                <Label Text="Confirmar Senha de Pânico"></Label>
+                <Entry x:Name="confirmarSenhaPanico" IsPassword="True"></Entry>
+
+                <Button Text="Atualizar" HorizontalOptions="Center"></Button>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
