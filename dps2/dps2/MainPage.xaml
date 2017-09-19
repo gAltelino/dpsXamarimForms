@@ -7,24 +7,28 @@
     <ContentPage.Content>
 
         <ScrollView>
-        <StackLayout VerticalOptions="StartAndExpand">
+        <StackLayout VerticalOptions="StartAndExpand" Margin="6, 10, 6, 6">
 
             <!--Abaixo disponível apenas aos clientes-->
-                <Button Text="EMERGÊNCIA" BackgroundColor="Red" TextColor="Black" ClassId="clientes"></Button>
+                <Button Text="EMERGÊNCIA" BackgroundColor="Red" TextColor="Black" ClassId="clientes" IsVisible="False"></Button>
 
-                <Button Text="Mapa" TextColor="Blue" ClassId="clientes"></Button>
+                <Button Text="Mapa" TextColor="Blue" ClassId="clientes" IsVisible="False"></Button>
 
-                <Button Text="Registrar Ocorrência" TextColor="Blue" ClassId="clientes"></Button>
+                <Button Text="Registrar Ocorrência" TextColor="Blue" ClassId="clientes" IsVisible="False"></Button>
 
-                <Button Text="Atualizar Dados" TextColor="Blue" ClassId="clientes"></Button>
+                <Button Text="Atualizar Dados" TextColor="Blue" ClassId="clientes" IsVisible="False"></Button>
 
                 <!--Abaixo disponível apenas aos funcionários-->
-            <Button Text="Iniciar Ronda" BackgroundColor="Blue" TextColor="Black" ClassId="funcionarios"></Button>
+
+                <Button Text="Finalizar Ronda" BackgroundColor="LightGreen" TextColor="Black" ClassId="funcionarios" Clicked="Button_Clicked"></Button>
+
+                <Label x:Name="testeLong" FontSize="20" Text="vai aqui" IsVisible="False"></Label>
 
                 <Button Text="Visualizar Emergências" TextColor="Black" ClassId="funcionarios"></Button>
 
-                <Button Text="Visualizar Ocorrência" TextColor="Blue" ClassId="funcionarios"></Button>
-                       
+                <Button Text="Visualizar Ocorrências" TextColor="Black" ClassId="funcionarios"></Button>
+
+                <Button Text="Sair" TextColor="Blue" ClassId="funcionarios"></Button>
                                                
         </StackLayout>
         </ScrollView>

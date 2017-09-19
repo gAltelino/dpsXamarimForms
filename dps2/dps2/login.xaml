@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="dps2.Page1" Title="Login">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="StartAndExpand">
-            <Label Text="CPF" />
-            <Entry x:Name="cpfUsuario" Placeholder="CPF" Style="000.000.000-00"  />
-            <Label Text="Senha" />
+        <StackLayout VerticalOptions="StartAndExpand" Margin="6, 6, 6, 6">
+            <Label Text="CPF" Font="14" FontAttributes="Bold" />
+            <Entry x:Name="cpfUsuario" Style="000.000.000-00"  />
+            <Label Text="Senha" Font="14" FontAttributes="Bold" />
             <Entry x:Name="senhaUsuario" IsPassword="true" />
-            <Button Text="Login"/>
-            <Button Text="Esqueceu sua senha?"></Button>
+            <Button Text="Login" BackgroundColor="LightBlue"/>
+            <Button Text="Esqueceu sua senha ?" BackgroundColor="LightGray"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -3,11 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="dps2.esqueceuSenha">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Como deseja recuperar sua senha?" />
-            <ListView x:Name="meioRecuperacao"></ListView>
-            <Entry x:Name="dadoRecuperacao" Placeholder="Digite o seu meio de recuperação"></Entry>
-            <Button Text="Recuperar"></Button>
+        <StackLayout VerticalOptions="CenterAndExpand" Margin="6, 10, 6, 6">
+            <Label Text="Preencha seu e-mail no campo abaixo:" />
+            <Entry x:Name="dadoRecuperacao" Placeholder="E-Mail"></Entry>
+            <Button Text="Confirmar" TextColor="Black" BackgroundColor="LightBlue"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

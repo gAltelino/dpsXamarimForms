@@ -11,13 +11,11 @@ namespace dps2
     public partial class App : Application
         {
 
-        public static bool IsUserLoggedIn { get; set; }
-
         public App()
         {
             InitializeComponent();
 
-            MainPage = new dps2.mapeamentoRotas();
+            MainPage = new dps2.cadastroClientes();
         }
 
         protected override void OnStart()

@@ -4,16 +4,13 @@
              x:Class="dps2.cadastroClientes">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
+        <StackLayout Margin="6, 10, 6, 6" VerticalOptions="CenterAndExpand">
 
                 <Label Text="Nome"></Label>
                 <Entry x:Name="nomeCliente"></Entry>
             
                 <Label Text="Data de Nascimento"></Label>
                 <Entry x:Name="dataNascimentoCliente"></Entry>
-            
-                <Label Text="Estado Civil"></Label>
-                <ListView x:Name="estadoCivil"></ListView>
             
                 <Label Text="CEP"></Label>
                 <Entry x:Name="cepCliente"></Entry>
@@ -60,7 +57,7 @@
                 <Label Text="Confirmar Senha de Pânico"></Label>
                 <Entry x:Name="confirmarSenhaPanico" IsPassword="True"></Entry>
 
-                <Button Text="Atualizar" HorizontalOptions="Center"></Button>
+                <Button Text="Cadastrar" HorizontalOptions="Center" BackgroundColor="LightBlue"></Button>
 
             </StackLayout>
         </ScrollView>
