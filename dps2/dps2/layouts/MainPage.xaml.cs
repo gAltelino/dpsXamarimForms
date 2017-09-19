@@ -26,12 +26,18 @@ namespace dps2
                 locator.DesiredAccuracy = 50;
 
                 var position = await locator.GetPositionAsync(timeoutMilliseconds:10000);
-                //testeLong.Text = position.Longitude.ToString();
 
-                testeLong.Text = position.Longitude.ToString();
+                double longitude = position.Longitude;
+                double latitude = position.Latitude;
+                string cpf = "36471042809"; //cpf fixo para teste inicial
+
+
+                //Após obter os dados tenta realizar o envio para a API via HTTP
+                //            http://localhost:6538/Funcionario/GravarLocalizacao?cpf=36471042809&lat=-23,0235097&lng=-45,5754652
+
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 testeLong.Text = ex.ToString();
             }

@@ -44,42 +44,42 @@
     <Compile Include="cs\emRonda.cs" />
     <Compile Include="cs\exibirFuncionario.cs" />
     <Compile Include="cs\localizacao.cs" />
-    <Compile Include="cadastroClientes.xaml.cs">
+    <Compile Include="layouts\cadastroClientes.xaml.cs">
       <DependentUpon>cadastroClientes.xaml</DependentUpon>
     </Compile>
-    <Compile Include="esqueceuSenha.xaml.cs">
+    <Compile Include="layouts\esqueceuSenha.xaml.cs">
       <DependentUpon>esqueceuSenha.xaml</DependentUpon>
     </Compile>
-    <Compile Include="mapaPosicaoFuncionarios.xaml.cs">
+    <Compile Include="layouts\mapaPosicaoFuncionarios.xaml.cs">
       <DependentUpon>mapaPosicaoFuncionarios.xaml</DependentUpon>
     </Compile>
-    <Compile Include="naoPrecisa\cadastroFuncionarios.xaml.cs">
+    <Compile Include="layouts\cadastroFuncionarios.xaml.cs">
       <DependentUpon>cadastroFuncionarios.xaml</DependentUpon>
     </Compile>
-    <Compile Include="cadastroRondas.xaml.cs">
+    <Compile Include="layouts\cadastroRondas.xaml.cs">
       <DependentUpon>cadastroRondas.xaml</DependentUpon>
     </Compile>
     <Compile Include="cs\acionarEmergencia.cs" />
     <Compile Include="cs\LoginPage.cs" />
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="layouts\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Login.xaml.cs">
+    <Compile Include="layouts\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
-    <Compile Include="mapeamentoRotas.xaml.cs">
+    <Compile Include="layouts\mapeamentoRotas.xaml.cs">
       <DependentUpon>mapeamentoRotas.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="naoPrecisa\relatorioCliente.xaml.cs">
+    <Compile Include="layouts\relatorioCliente.xaml.cs">
       <DependentUpon>relatorioCliente.xaml</DependentUpon>
     </Compile>
-    <Compile Include="naoPrecisa\relatorioFuncionario.xaml.cs">
+    <Compile Include="layouts\relatorioFuncionario.xaml.cs">
       <DependentUpon>relatorioFuncionario.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MainPage.xaml">
+    <EmbeddedResource Include="layouts\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -89,43 +89,43 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Login.xaml">
+    <EmbeddedResource Include="layouts\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="cadastroClientes.xaml">
+    <EmbeddedResource Include="layouts\cadastroClientes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="naoPrecisa\cadastroFuncionarios.xaml">
+    <EmbeddedResource Include="layouts\cadastroFuncionarios.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="naoPrecisa\relatorioCliente.xaml">
+    <EmbeddedResource Include="layouts\relatorioCliente.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="naoPrecisa\relatorioFuncionario.xaml">
+    <EmbeddedResource Include="layouts\relatorioFuncionario.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="cadastroRondas.xaml">
+    <EmbeddedResource Include="layouts\cadastroRondas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="mapeamentoRotas.xaml">
+    <EmbeddedResource Include="layouts\mapeamentoRotas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -154,13 +154,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="mapaPosicaoFuncionarios.xaml">
+    <EmbeddedResource Include="layouts\mapaPosicaoFuncionarios.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="esqueceuSenha.xaml">
+    <EmbeddedResource Include="layouts\esqueceuSenha.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
