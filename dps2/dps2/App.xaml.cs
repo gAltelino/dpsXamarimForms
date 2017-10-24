@@ -15,7 +15,7 @@ namespace dps2
         {
             InitializeComponent();
 
-            MainPage = new dps2.cadastroClientes();
+            MainPage = new dps2.MainPage();
         }
 
         protected override void OnStart()

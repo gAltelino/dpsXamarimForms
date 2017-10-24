@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace dps2
+namespace dps2.layouts
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class relatorioFuncionario : ContentPage
+    public partial class acionamentoEspecial : ContentPage
     {
-        public relatorioFuncionario()
+        public acionamentoEspecial()
         {
             InitializeComponent();
         }

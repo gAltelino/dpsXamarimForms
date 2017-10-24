@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin Forms!" />
+            mapa para os funcionarios seguirem o trajeto
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

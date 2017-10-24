@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace dps2
+namespace dps2.layouts
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class mapeamentoRotas : ContentPage
+    public partial class emRonda : ContentPage
     {
-        public mapeamentoRotas()
+        public emRonda()
         {
             InitializeComponent();
         }
